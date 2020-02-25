@@ -1,18 +1,22 @@
 To run Application in your system, please make sure you have node js & git has been installed.
 
 follow the steps belows,
-1. Download all code from git repo in your system
-2. Node.js, npm & gulp are required to run application.
-3. Copy from "src" folder including gulp.js and package.json in your local directory.
-4. to run gulp you need to install 'gulp-imagemin','gulp-sass','browser-sync' and 'gulp-notify' plugins in project environment. 
-5 Once you install all plugins then open proejct in code editior or just open command propmpt in 'src' folder.
-6) type 'gulp' command in command prompt and hit enter to  run the application.
+
+1. Download all code from git repo in your system.
+2. Install npm & gulp.js in your local system which is required for running application.
+3. Copy "src" folder including gulpfile.js,package.json & package-lock.json in your local directory(not in src folder). 
+4. 'src' folder contain all files i.e. css,js,images,fonts,scss,includes,index.html. etc. so copy and paste 'src' folder in your project directory.
+4. To run gulp you need to install 'gulp-imagemin','gulp-sass','browser-sync' and 'gulp-notify' plugins in project environment. 
+5. Once you successfully install all plugins then open project in code editior (vs code) or just open command prompt and run it.
+6. Type 'gulp' command in command prompt and hit enter to  run the application.
+
 
 
 Resources:
+
 1. Used slick slider to run image slider in model popup.
-2. used foundation for responsive & development.
-3. used jquery for some custom chnages to meet the requriments.
-4. used SCSS (all code avalaible in SCSS folder) for styling page and by using gulp.js compile it into 
+2. used foundation for responsive & UI development.
+3. used jquery for some custom changes to meet the requirements.
+4. used SCSS (all code available in SCSS folder) for styling the page and compile it by using gulp.js into 
    normal css(in style.css file)
-5. Also used W3.JS to separate common template i.e. footer/header and import in index.html with help of w3.js
+5. Also used W3.JS to separate common templates i.e. footer/header.html and import in index.html with help of w3.js.
