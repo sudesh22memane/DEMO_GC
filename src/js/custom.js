@@ -58,12 +58,12 @@ $(document).ready(function () {
     $mybtn.on('click', function () {
         if ($dots.css("display") == "none") {
             $dots.show();
-            $more.slideUp(150);
+            $more.slideUp(250);
             $mybtn.text("More");
         } else {
             $mybtn.text("Read Less");
             $dots.hide();
-            $more.slideDown(200);
+            $more.slideDown(250);
         }
 
     });
